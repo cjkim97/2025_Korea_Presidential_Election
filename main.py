@@ -25,7 +25,7 @@ def main():
     # main_title.subheader('21대 대선 후보들은 어떤 공약을 냈을까?')
     st.write('''<div class="page_links">
             <div class="link"> <a href="https://github.com/cjkim97/2025_Korea_Presidential_Election"> 📝 사용설명서 </a> </div>
-            <div class="link"> <a href="https://blog.naver.com/nuang0530"> 🏠 제작자의 블로그 </a> </div>
+            <div class="link"> <a href="https://blog.naver.com/nuang0530/223877570001"> 🏠 제작자의 블로그 </a> </div>
          </div>''', 
          unsafe_allow_html=True)
     for _ in range(5) : st.write('') # 공백 
