@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+/* 폰트 변경 */
+textarea {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 400 !important;
+}
+/* span, div {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 400 !important;
+} */
+
+p {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 300;
+}
+
+input {
+    font-family: 'Pretendard Variable' !important;
+    font-weight: 300;
+}
+
+.notice {
+    align-items:center;
+    font-size:2rem;
+    color:brown;
+    text-align: center;
+}
+
+/* 프로필 사진 */
+[data-testid="stChatMessage"] > img {
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+
+/* 공약 */
+[data-testid="stExpanderDetails"] > div > div > div > div > div > p{
+    font-size:0.9rem;
+    font-weight: 400;
+    color:dimgrey;
+}
+/* main_link 스타일 설정 */
+[class="page_links"] {
+    display: flex;
+    align-items: center;
+    gap : 2rem;
+    justify-content: center;
+}
+
+[class="page_links"] > [class="link"] > a{
+    font-family: "Pretendard Variable";
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration : none;
+    padding-left : 0.5rem;
+    padding-right : 0.5rem;
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+    line-height : 2;
+}
+[class="link"] {
+    display : flex;
+    align-items: center;
+}
+[class="link"] :hover {
+    background-color: rgb(247, 247, 247);
+    border-radius: 0.2rem;
+}
+
+.title {
+    text-align: center;
+}
