@@ -1,6 +1,6 @@
 # 대한민국의 미래를 AI와 함께 알아보자!
-https://korea-21-presidential-election.streamlit.app/
-최근, 21대 대통령 선거에 앞서, 대선 토론을 상당히 흥미롭게 시청했습니다.
+https://korea-21-presidential-election.streamlit.app/ <br>
+최근, 21대 대통령 선거에 앞서, 대선 토론을 상당히 흥미롭게 시청했습니다. <br>
 거기서 떠오른 아이디어가, 공약을 기반으로 각 후보를 하나의 Agent로 구성하여 
 1) 질문에 대해, 어떤 공약을 준비했는지
 2) 직접 심도있게 대화를 나누면 어떻게 의견을 제시할지
